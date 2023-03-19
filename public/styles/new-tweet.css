@@ -1,0 +1,67 @@
+label {
+  font-weight: 600;
+}
+
+textarea {
+  border-width: 0 0 3px;
+  background-color: inherit;
+  width: 100%;
+  resize: none;
+  margin-top: 5px;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+article.tweet-layout {
+  margin: 60px 0;
+  border: 3px solid gray;
+}
+
+article.tweet-layout:hover {
+  box-shadow: 7px 7px gray;
+}
+
+.flex-row-spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+article.tweet-layout header img {
+  width: 8vw;
+}
+
+article.tweet-layout .tweet-content {
+  border: solid gray;
+  border-width: 0 0 3px;
+  padding: 0 20px 20px;
+  margin: 10px;
+}
+
+i:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.submit-area {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive;
+}
+
+.red {
+  color: red;
+}
+
+.submit-area button {
+  background-color: #4056A1;
+  color: #fff;
+  padding: 3px 10px 2px;
+  font-size: 18px;
+  border: none;
+}
