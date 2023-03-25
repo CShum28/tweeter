@@ -28,11 +28,11 @@ article.tweet-layout:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
 }
 
 article.tweet-layout header img {
-  width: 8vw;
+  width: 5vw;
 }
 
 article.tweet-layout .tweet-content {
@@ -40,6 +40,7 @@ article.tweet-layout .tweet-content {
   border-width: 0 0 3px;
   padding: 0 20px 20px;
   margin: 10px;
+  overflow-wrap: break-word;
 }
 
 i:hover {
@@ -64,4 +65,14 @@ i:hover {
   padding: 3px 10px 2px;
   font-size: 18px;
   border: none;
+  cursor: pointer;
+}
+
+#error-message {
+  display: none;
+  border: 2px solid red;
+  color: red;
+  font-weight: 700;
+  padding: 10px 35px;
+  margin-bottom: 20px;
 }

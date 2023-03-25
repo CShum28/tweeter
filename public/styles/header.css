@@ -6,4 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  background-image: url('../images/asfalt-background.png');
+  margin-bottom: 75px;
+  background-color: #a9c2db;
 }

@@ -28,7 +28,8 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <!-- timeago -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"></script>
     <!-- jQuery  -->
     <script src="scripts/composer-char-counter.js"></script>
 
@@ -50,7 +51,10 @@
     <nav>
       <span class="tweeter">tweeter </span>
       <div class="tweet-note">
-        <p><span class="bold-text">Write</span> a new tweet</p>
+        <!-- <p><span class="bold-text">Write</span> a new tweet</p> // ORIGINAL -->
+        <button class="toggle-form-button">
+          <span class="bold-text">Write</span> a new tweet
+        </button>
         <i class="fa-solid fa-angles-down double-down-icon"></i>
       </div>
     </nav>
@@ -60,7 +64,6 @@
       <div>
         <img src="/images/profile-hex.png" />
       </div>
-      <br />
       <div>
         <h2>Your Name</h2>
       </div>
@@ -68,8 +71,9 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
+      <section id="error-message"></section>
       <section class="new-tweet">
-        <form action="/tweets/" method="POST">
+        <form action="/tweets/" method="POST" id="tweet-form">
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div class="submit-area">
@@ -78,33 +82,10 @@
           </div>
         </form>
       </section>
-
-      <!-- The tweets -->
-      <article class="tweet-layout">
-        <header class="flex-row-spaced">
-          <span class="tweet-icon flex-row-spaced">
-            <img src="/images/profile-hex.png" />
-            <p>Lorem, ipsum.</p>
-          </span>
-          <p>tweet username</p>
-        </header>
-        <div>
-          <p class="tweet-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            dolorum, ea quidem debitis qui aliquid, ut quaerat voluptas dicta
-            corporis quae veniam ullam nisi? Totam aut tenetur quae impedit
-            pariatur.
-          </p>
-        </div>
-        <footer class="tweet-foot flex-row-spaced">
-          <p>Tweet Time</p>
-          <div class="tweet-icons">
-            <i class="fa-solid fa-flag"></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article>
+      <section id="tweets-container"></section>
     </main>
+
+    <!-- Top of page button -->
+    <button class="top-of-page">&#129053</button>
   </body>
 </html>
