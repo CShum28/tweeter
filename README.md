@@ -15,13 +15,13 @@ This project allows the user to tweet a message between 1 and 140 characters.
 # Features
 
 User can submit a tweet and it will generate and show up with a timestamp
-!["Screenshot of tweet with timestamp"]()
+!["Screenshot of tweet with timestamp"](https://github.com/CShum28/tweeter/blob/master/docs/Working%20Tweet.png)
 
 User can make the tweet textbox disappear and reappear by click on "Write a new tweet"
-!["Screenshot of disappearing textbox"]()
+!["Screenshot of disappearing textbox"](https://github.com/CShum28/tweeter/blob/master/docs/Disappearing%20Tweet.png)
 
 Error Message that occurs if user tries to submit tweet without any characters
-!["Screenshot of Error Message > 140 characters"]()
+!["Screenshot of Error Message > 140 characters"](https://github.com/CShum28/tweeter/blob/master/docs/Tweeter%20Error%20140.png)
 
 Error Message that occurs if user tries to submit tweet without any characters
 !["Screenshot of Error Message 0 characters"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Error.png)
