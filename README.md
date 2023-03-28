@@ -14,5 +14,15 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Dependencies
 
+- body-parser
+- chance
 - Express
 - Node 5.10.x or above
+
+## Final Product
+
+!["Screenshot of Computer Screen"](https://github.com/CShum28/tweeter/blob/master/docs/Computer%20Screen%20Tweeter.png)
+!["Screenshot of Tablet Screen"](https://github.com/CShum28/tweeter/blob/master/docs/Tablet%20Screen%20Tweeter.png)
+!["Screenshot of Phone Screen"](https://github.com/CShum28/tweeter/blob/master/docs/Phone%20Screen%20Tweeter.png)
+!["Screenshot of Error Message"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Error.png)
+!["Screenshot of Letter Counting Down"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Letter%20Count.png)
