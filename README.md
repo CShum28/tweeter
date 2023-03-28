@@ -24,7 +24,7 @@ This project allows the user to tweet a message between 1 and 140 characters.
 !["Screenshot of Error Message > 140 characters"](https://github.com/CShum28/tweeter/blob/master/docs/Tweeter%20Error%20140.png)
 
 - Error Message that occurs if user tries to submit tweet without any characters
-!["Screenshot of Error Message 0 characters"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Error.png)
+!["Screenshot of Error Message 0 characters"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Error%200.png)
 
 - Letters count down as you type
 !["Screenshot of Letter Counting Down"](https://github.com/CShum28/tweeter/blob/master/docs/Tweet%20Letter%20Count.png)
